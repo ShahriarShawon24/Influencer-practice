@@ -1,0 +1,248 @@
+/* nav section  */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 50px 100px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+
+
+
+
+
+
+
+}
+
+.nav-h2 {
+    color: rgb(58, 58, 58);
+
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+.nav-ul a {
+    text-decoration: none;
+
+
+}
+
+.nav-ul li {
+
+    margin-left: 1rem;
+}
+
+.nav-ul a {
+    color: rgb(58, 58, 58);
+
+
+    font-size: 16px;
+    font-weight: 600;
+
+
+
+}
+
+/* container */
+.container {
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    grid-area: text-container;
+
+}
+
+.img-container {
+    grid-area: img-container;
+}
+
+.text-container-h1 {
+    color: rgb(58, 58, 58);
+
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;
+
+
+
+
+}
+
+.text-container-paragraph {
+    color: rgb(58, 58, 58);
+
+    font-size: 16px;
+    font-weight: 600;
+
+    text-align: left;
+
+}
+
+.text-container-btn {
+    border-radius: 41px;
+
+    background: rgb(224, 44, 109);
+    border: 0;
+
+
+    padding: 10px 20px;
+}
+
+.button-text {
+    color: rgb(255, 255, 255);
+
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: left;
+}
+
+.img-real {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+
+}
+
+/* main section */
+main {
+    margin: 100px 200px;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popular-collection {
+    margin-top: 100px;
+}
+
+.popular-collection-h2 {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cart-1 {
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+
+
+/* responsive section */
+
+@media screen and (max-width:576px) {
+    header {
+        margin: 10px 10px;
+    }
+
+    .nav-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .nav-container {
+        padding-right: 30px;
+
+
+    }
+
+    .nav-ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .nav-h2 {
+        text-align: center;
+    }
+
+    .nav-ul li {
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    /* container */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-template-areas: "img-container"
+            "text-container";
+
+
+
+
+    }
+
+    .text-container {
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+
+    .text-container-h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+    .text-container-paragraph {
+        text-align: center;
+    }
+
+    .img-real {
+
+        width: 100%;
+        /* padding-top: 60px;
+        padding-left: 40px; */
+        background-size: 100%;
+
+    }
+
+    main {
+        margin: 40px 40px;
+    }
+
+    .logo-div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+
+
+    }
+
+
+}
