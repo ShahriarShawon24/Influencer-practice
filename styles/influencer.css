@@ -243,6 +243,17 @@ main {
 
 
     }
-
+    .popular-collection {
+        margin-top: 50px;
+        
+    }
+    
+    .cart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding-left: 10px;
+        
+    }
 
 }
